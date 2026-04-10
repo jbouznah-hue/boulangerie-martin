@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boulangerie Martin | Artisan Boulanger depuis 1987 - Paris 8e</title>
+  <meta name="description" content="Boulangerie Martin, artisan boulanger depuis 1987 au coeur du 8e arrondissement de Paris. Croissants au beurre AOP, pains au levain, viennoiseries artisanales." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Lato:wght@300;400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F956;</text></svg>">
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">
+        <span class="nav__logo-icon">M</span>
+        <span class="nav__logo-text">Boulangerie Martin</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Menu de navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#creations">Nos Cr&eacute;ations</a></li>
+        <li><a href="#histoire">Notre Histoire</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__grain"></div>
+      <div class="hero__gradient"></div>
+    </div>
+    <div class="hero__particles" id="particles"></div>
+    <div class="hero__content">
+      <div class="hero__badge reveal">
+        <span class="hero__badge-line"></span>
+        <span>Artisan Boulanger depuis 1987</span>
+        <span class="hero__badge-line"></span>
+      </div>
+      <h1 class="hero__title reveal reveal--delay-1">
+        <span class="hero__title-line">Boulangerie</span>
+        <span class="hero__title-line hero__title-line--accent">Martin</span>
+      </h1>
+      <p class="hero__subtitle reveal reveal--delay-2">
+        L'art du pain, transmis de g&eacute;n&eacute;ration en g&eacute;n&eacute;ration<br>
+        au c&oelig;ur du 8<sup>e</sup> arrondissement de Paris
+      </p>
+      <div class="hero__cta reveal reveal--delay-3">
+        <a href="#creations" class="btn btn--primary">D&eacute;couvrir nos cr&eacute;ations</a>
+        <a href="#contact" class="btn btn--outline">Nous rendre visite</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>D&eacute;filer</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+    <div class="hero__corner hero__corner--tl"></div>
+    <div class="hero__corner hero__corner--br"></div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>Croissants au beurre AOP &bull;</span>
+      <span>Pain de campagne au levain &bull;</span>
+      <span>Baguette tradition &bull;</span>
+      <span>Tarte aux fruits de saison &bull;</span>
+      <span>P&acirc;tisseries artisanales &bull;</span>
+      <span>Viennoiseries du matin &bull;</span>
+      <span>Croissants au beurre AOP &bull;</span>
+      <span>Pain de campagne au levain &bull;</span>
+      <span>Baguette tradition &bull;</span>
+      <span>Tarte aux fruits de saison &bull;</span>
+      <span>P&acirc;tisseries artisanales &bull;</span>
+      <span>Viennoiseries du matin &bull;</span>
+    </div>
+  </div>
+
+  <!-- Creations -->
+  <section class="creations" id="creations">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-header__tag">Nos sp&eacute;cialit&eacute;s</span>
+        <h2 class="section-header__title">Nos Cr&eacute;ations<br><em>d'Exception</em></h2>
+        <p class="section-header__desc">Chaque matin, nos artisans fa&ccedil;onnent avec passion des produits d'exception, issus de farines s&eacute;lectionn&eacute;es et de savoir-faire ancestraux.</p>
+      </div>
+      <div class="creations__grid">
+        <!-- Card 1 - Croissant -->
+        <article class="card reveal" data-tilt>
+          <div class="card__visual">
+            <div class="card__icon">
+              <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M60 15C35 15 20 35 20 50C20 65 30 75 40 80C45 82.5 50 90 50 95H70C70 90 75 82.5 80 80C90 75 100 65 100 50C100 35 85 15 60 15Z" fill="url(#gold1)" opacity="0.15"/>
+                <path d="M30 55C25 45 30 30 45 22M60 18C55 18 48 20 43 25M90 55C95 45 90 30 75 22M60 18C65 18 72 20 77 25" stroke="url(#gold1)" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M35 60C35 60 40 75 50 80C55 82 55 92 55 95H65C65 92 65 82 70 80C80 75 85 60 85 60" stroke="url(#gold1)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M48 60C50 50 55 35 60 30C65 35 70 50 72 60" stroke="url(#gold1)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+                <path d="M50 95H70" stroke="url(#gold1)" stroke-width="2.5" stroke-linecap="round"/>
+                <defs><linearGradient id="gold1" x1="20" y1="15" x2="100" y2="95"><stop stop-color="#D4A853"/><stop offset="1" stop-color="#8B6914"/></linearGradient></defs>
+              </svg>
+            </div>
+            <div class="card__glow"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__label">Signature</span>
+            <h3 class="card__title">Croissant au Beurre AOP</h3>
+            <p class="card__desc">Feuillet&eacute; &agrave; la perfection avec du beurre AOP Charentes-Poitou. Croustillant &agrave; l'ext&eacute;rieur, fondant &agrave; l'int&eacute;rieur.</p>
+            <div class="card__footer">
+              <span class="card__price">2,10 &euro;</span>
+              <span class="card__tag">Best-seller</span>
+            </div>
+          </div>
+        </article>
+        <!-- Card 2 - Pain de Campagne -->
+        <article class="card card--featured reveal reveal--delay-1" data-tilt>
+          <div class="card__visual">
+            <div class="card__icon">
+              <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="60" cy="65" rx="38" ry="22" fill="url(#gold2)" opacity="0.12"/>
+                <path d="M25 65C25 52 40 42 60 42C80 42 95 52 95 65C95 78 80 88 60 88C40 88 25 78 25 65Z" stroke="url(#gold2)" stroke-width="2.5"/>
+                <path d="M35 62C38 55 48 50 60 50C72 50 82 55 85 62" stroke="url(#gold2)" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+                <path d="M40 58L44 72M52 55L54 74M60 54V75M68 55L66 74M80 58L76 72" stroke="url(#gold2)" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+                <path d="M45 42C48 35 54 30 60 30C66 30 72 35 75 42" stroke="url(#gold2)" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 4"/>
+                <defs><linearGradient id="gold2" x1="25" y1="30" x2="95" y2="88"><stop stop-color="#D4A853"/><stop offset="1" stop-color="#8B6914"/></linearGradient></defs>
+              </svg>
+            </div>
+            <div class="card__glow"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__label">Tradition</span>
+            <h3 class="card__title">Pain de Campagne au Levain</h3>
+            <p class="card__desc">Levain naturel cultiv&eacute; depuis 35 ans, farine de meule bio. Une cro&ucirc;te &eacute;paisse et craquante, une mie a&eacute;r&eacute;e et parfum&eacute;e.</p>
+            <div class="card__footer">
+              <span class="card__price">5,80 &euro;</span>
+              <span class="card__tag">Coup de c&oelig;ur</span>
+            </div>
+          </div>
+        </article>
+        <!-- Card 3 - Tarte -->
+        <article class="card reveal reveal--delay-2" data-tilt>
+          <div class="card__visual">
+            <div class="card__icon">
+              <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25 75C25 75 25 55 60 55C95 55 95 75 95 75" fill="url(#gold3)" opacity="0.1"/>
+                <path d="M20 80H100" stroke="url(#gold3)" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M25 80C25 80 25 60 60 60C95 60 95 80 95 80" stroke="url(#gold3)" stroke-width="2.5" stroke-linecap="round"/>
+                <circle cx="42" cy="50" r="6" stroke="url(#gold3)" stroke-width="2" opacity="0.7"/>
+                <circle cx="60" cy="46" r="7" stroke="url(#gold3)" stroke-width="2" opacity="0.7"/>
+                <circle cx="78" cy="50" r="6" stroke="url(#gold3)" stroke-width="2" opacity="0.7"/>
+                <circle cx="51" cy="42" r="5" stroke="url(#gold3)" stroke-width="1.5" opacity="0.5"/>
+                <circle cx="69" cy="42" r="5" stroke="url(#gold3)" stroke-width="1.5" opacity="0.5"/>
+                <path d="M30 80V85C30 87 32 90 60 90C88 90 90 87 90 85V80" stroke="url(#gold3)" stroke-width="2" opacity="0.5"/>
+                <defs><linearGradient id="gold3" x1="20" y1="40" x2="100" y2="90"><stop stop-color="#D4A853"/><stop offset="1" stop-color="#8B6914"/></linearGradient></defs>
+              </svg>
+            </div>
+            <div class="card__glow"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__label">Saison</span>
+            <h3 class="card__title">Tarte aux Fruits de Saison</h3>
+            <p class="card__desc">Cr&egrave;me p&acirc;tissi&egrave;re onctueuse sur fond sabl&eacute; pur beurre, couronn&eacute;e de fruits fra&icirc;chement cueillis.</p>
+            <div class="card__footer">
+              <span class="card__price">4,50 &euro;</span>
+              <span class="card__tag">Nouveaut&eacute;</span>
+            </div>
+          </div>
+        </article>
+        <!-- Card 4 - Baguette -->
+        <article class="card reveal reveal--delay-3" data-tilt>
+          <div class="card__visual">
+            <div class="card__icon">
+              <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M30 85L35 40C35 40 40 25 60 25C80 25 85 40 85 40L90 85" fill="url(#gold4)" opacity="0.1"/>
+                <path d="M30 85L35 40C35 40 40 25 60 25C80 25 85 40 85 40L90 85" stroke="url(#gold4)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M42 85L45 48C45 48 48 38 60 38C72 38 75 48 75 48L78 85" stroke="url(#gold4)" stroke-width="1.5" opacity="0.35" stroke-linecap="round"/>
+                <path d="M25 85H95" stroke="url(#gold4)" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M50 30C52 22 56 20 60 20C64 20 68 22 70 30" stroke="url(#gold4)" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 3" opacity="0.5"/>
+                <path d="M38 65H82M40 75H80" stroke="url(#gold4)" stroke-width="1.5" stroke-linecap="round" opacity="0.25"/>
+                <defs><linearGradient id="gold4" x1="25" y1="20" x2="95" y2="85"><stop stop-color="#D4A853"/><stop offset="1" stop-color="#8B6914"/></linearGradient></defs>
+              </svg>
+            </div>
+            <div class="card__glow"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__label">Classique</span>
+            <h3 class="card__title">Baguette Tradition</h3>
+            <p class="card__desc">Farine Label Rouge, p&eacute;trissage lent, fermentation longue de 24h. La baguette parisienne dans toute sa splendeur.</p>
+            <div class="card__footer">
+              <span class="card__price">1,30 &euro;</span>
+              <span class="card__tag">Incontournable</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Philosophy Banner -->
+  <section class="philosophy">
+    <div class="philosophy__bg"></div>
+    <div class="container">
+      <div class="philosophy__content reveal">
+        <blockquote class="philosophy__quote">
+          &laquo;&nbsp;Le bon pain, c'est la patience du levain, la chaleur du four &agrave; pierre, et l'amour du geste r&eacute;p&eacute;t&eacute; chaque matin depuis bient&ocirc;t quarante ans.&nbsp;&raquo;
+        </blockquote>
+        <cite class="philosophy__author">&mdash; Pierre Martin, Ma&icirc;tre Boulanger</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- Histoire -->
+  <section class="histoire" id="histoire">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-header__tag">Depuis 1987</span>
+        <h2 class="section-header__title">Notre<br><em>Histoire</em></h2>
+        <p class="section-header__desc">Trois g&eacute;n&eacute;rations unies par la passion du pain, une tradition familiale perp&eacute;tu&eacute;e avec fiert&eacute;.</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline__line"></div>
+        <div class="timeline__item reveal" data-year="1987">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__year">1987</span>
+            <h3>Les D&eacute;buts</h3>
+            <p>Pierre Martin, tout juste dipl&ocirc;m&eacute; des Compagnons du Devoir, ouvre sa premi&egrave;re boulangerie rue du Faubourg Saint-Honor&eacute;. Un four &agrave; pierre, une passion d&eacute;vorante.</p>
+          </div>
+        </div>
+        <div class="timeline__item timeline__item--right reveal" data-year="1995">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__year">1995</span>
+            <h3>Premi&egrave;re R&eacute;compense</h3>
+            <p>La baguette tradition Martin remporte le prix de la meilleure baguette du 8<sup>e</sup> arrondissement. Le bouche-&agrave;-oreille fait le reste.</p>
+          </div>
+        </div>
+        <div class="timeline__item reveal" data-year="2005">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__year">2005</span>
+            <h3>Levain Centenaire</h3>
+            <p>Pierre re&ccedil;oit d'un confr&egrave;re un levain-chef dat&eacute; de 1923. Ce tr&eacute;sor vivant parfume aujourd'hui encore chaque fourn&eacute;e.</p>
+          </div>
+        </div>
+        <div class="timeline__item timeline__item--right reveal" data-year="2015">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__year">2015</span>
+            <h3>La Rel&egrave;ve</h3>
+            <p>Juliette Martin, fille de Pierre, rejoint l'aventure apr&egrave;s un parcours en p&acirc;tisserie chez les plus grands. Elle apporte cr&eacute;ativit&eacute; et modernit&eacute;.</p>
+          </div>
+        </div>
+        <div class="timeline__item reveal" data-year="2024">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__year">Aujourd'hui</span>
+            <h3>L'Excellence Continue</h3>
+            <p>P&egrave;re et fille p&eacute;trissent c&ocirc;te &agrave; c&ocirc;te. La boutique est r&eacute;nov&eacute;e, l'esprit reste le m&ecirc;me : l'amour du geste artisanal, sans compromis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-header__tag">Nous trouver</span>
+        <h2 class="section-header__title">Horaires<br><em>&amp; Contact</em></h2>
+      </div>
+      <div class="contact__grid">
+        <div class="contact__info reveal">
+          <div class="contact__block">
+            <div class="contact__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h3>Adresse</h3>
+              <p>42 rue du Faubourg Saint-Honor&eacute;<br>75008 Paris</p>
+            </div>
+          </div>
+          <div class="contact__block">
+            <div class="contact__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <h3>T&eacute;l&eacute;phone</h3>
+              <p>01 42 65 XX XX</p>
+            </div>
+          </div>
+          <div class="contact__block">
+            <div class="contact__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h3>Horaires</h3>
+              <div class="contact__hours">
+                <div class="contact__hours-row">
+                  <span>Lundi &ndash; Samedi</span>
+                  <span>6h30 &ndash; 20h00</span>
+                </div>
+                <div class="contact__hours-row">
+                  <span>Dimanche</span>
+                  <span>7h00 &ndash; 13h00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact__map reveal reveal--delay-1">
+          <div class="contact__map-placeholder">
+            <div class="contact__map-pin">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="contact__map-grid">
+              <div></div><div></div><div></div><div></div>
+              <div></div><div></div><div></div><div></div>
+              <div></div><div></div><div></div><div></div>
+              <div></div><div></div><div></div><div></div>
+            </div>
+            <span class="contact__map-label">42 rue du Fbg Saint-Honor&eacute;</span>
+            <span class="contact__map-sublabel">Paris 8<sup>e</sup></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__brand">
+            <div class="footer__logo">
+              <span class="footer__logo-icon">M</span>
+              <span class="footer__logo-text">Boulangerie Martin</span>
+            </div>
+            <p class="footer__tagline">Artisan boulanger depuis 1987.<br>La tradition du go&ucirc;t, le go&ucirc;t de la tradition.</p>
+          </div>
+          <div class="footer__col">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="#creations">Nos Cr&eacute;ations</a></li>
+              <li><a href="#histoire">Notre Histoire</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Informations</h4>
+            <ul>
+              <li>42 rue du Fbg Saint-Honor&eacute;</li>
+              <li>75008 Paris</li>
+              <li>01 42 65 XX XX</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2024 Boulangerie Martin &mdash; Tous droits r&eacute;serv&eacute;s</p>
+        <p class="footer__craft">Fait avec du levain et du savoir-faire</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
